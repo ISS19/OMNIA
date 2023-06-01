@@ -1,0 +1,76 @@
+body{
+    display: grid;
+    place-items: center
+    ;
+}
+#forme{
+    display: none;
+    width: 290px;
+    height: 480px;
+    animation: fade 0.7s;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    align-items: center;
+}
+#inscri{
+    display: none;
+    width: 290px;
+    height: 400px;
+    animation: fade 0.7s;
+    padding-top: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    align-items: center;
+}
+#auth{
+    width: 290px;
+    height: 260px;
+    animation: fade 0.7s;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    align-items: center;
+}
+.header{
+    width: 240px;
+    margin: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+#con{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #efba42;
+}
+.inp{
+    margin: 15px;
+}
+.enter{
+    border: 1px transparent;
+    border-bottom: 1px solid #efba42;
+    padding: 12px 12px 2px 28px;
+    width: 210px;
+}
+.envoi{
+    height: 30px;
+    background: #efba42;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+}
+
+@keyframes fade {
+    from{
+
+        transform: scale(0);
+        opacity: 0.2;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}

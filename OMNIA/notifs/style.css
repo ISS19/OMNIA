@@ -1,0 +1,21 @@
+.icon-chart{
+    position: relative;
+    display: inline-block;
+}
+
+.icon-alert .alert-text{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.icon-alert:hover .alert-text{
+    display: block;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponne</title>
+</head>
+<body style="background: #d4d4d4; ">
+  <div style="display:grid;place-items: center;">
+    <div><h1>Bot Ponne</h1></div>
+    <div><p style="max-width: 290px;text-align: center;">Ponne vous fait bonjours, l'assistant personnel crée par OMNIA</p></div>
+    <div style="width:470px;height:200px;margin-bottom:10px">
+      <p id="par1" style="float:right;max-width:230px;padding: 10px; background:#731010;border-radius:50px">{{ prompt }}</p>
+      <p id="par2" style="float:left;max-width:230px;padding: 10px; margin-top:80px;background:grey;border-radius:50px">{{ answer }}</p>
+    </div>
+    <div style="text-align: center">
+      <form action="/generate_response" method="post">
+        <input type="text" id="prompt" name="prompt" rows="4" cols="50" style="width: 380px; height: 20px;padding:15px 100px 15px 15px; margin-top: 30%" placeholder="Poser ici votre quetion"><br><br>
+        <input type="submit" value="Envoyer" style="position: absolute;background:#aeaeae;padding: 10px;letter-spacing:1.5px;margin:-65px 0px 0px 160px;border-radius:50px">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
